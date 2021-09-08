@@ -1,0 +1,11 @@
+{
+  "name": "solidity-console",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "sam bacha",
+  "license": "SEE LICENSE IN LICENSE"
+}

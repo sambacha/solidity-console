@@ -1,0 +1,12 @@
+.DS_Store
+node_modules
+cache/
+artifacts
+.cache
+*.log
+*.tgz
+*.tar.gz
+.nyc_output/
+dist/
+build/
+
