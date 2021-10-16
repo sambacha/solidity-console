@@ -1,0 +1,148 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "pattern": "object",
+  "properties": {
+    "solidityTypes": {
+      "type": "object",
+      "properties": {
+        "bytes1": {
+          "pattern": "!!/^0x[0-9a-z]{2}$/"
+        },
+        "bytes2": {
+          "pattern": "!!/^0x[0-9a-z]{4}$/"
+        },
+        "bytes3": {
+          "pattern": "!!/^0x[0-9a-z]{6}$/"
+        },
+        "bytes4": {
+          "pattern": "!!/^0x[0-9a-z]{8}$/"
+        },
+        "bytes5": {
+          "pattern": "!!/^0x[0-9a-z]{10}$/"
+        },
+        "bytes6": {
+          "pattern": "!!/^0x[0-9a-z]{12}$/"
+        },
+        "bytes7": {
+          "pattern": "!!/^0x[0-9a-z]{14}$/"
+        },
+        "bytes8": {
+          "pattern": "!!/^0x[0-9a-z]{16}$/"
+        },
+        "bytes9": {
+          "pattern": "!!/^0x[0-9a-z]{18}$/"
+        },
+        "bytes10": {
+          "pattern": "!!/^0x[0-9a-z]{20}$/"
+        },
+        "bytes11": {
+          "pattern": "!!/^0x[0-9a-z]{22}$/"
+        },
+        "bytes12": {
+          "pattern": "!!/^0x[0-9a-z]{24}$/"
+        },
+        "bytes13": {
+          "pattern": "!!/^0x[0-9a-z]{26}$/"
+        },
+        "bytes14": {
+          "pattern": "!!/^0x[0-9a-z]{28}$/"
+        },
+        "bytes15": {
+          "pattern": "!!/^0x[0-9a-z]{30}$/"
+        },
+        "bytes16": {
+          "pattern": "!!/^0x[0-9a-z]{32}$/"
+        },
+        "bytes17": {
+          "pattern": "!!/^0x[0-9a-z]{34}$/"
+        },
+        "bytes18": {
+          "pattern": "!!/^0x[0-9a-z]{36}$/"
+        },
+        "bytes19": {
+          "pattern": "!!/^0x[0-9a-z]{38}$/"
+        },
+        "bytes20": {
+          "pattern": "!!/^0x[0-9a-z]{40}$/"
+        },
+        "bytes21": {
+          "pattern": "!!/^0x[0-9a-z]{42}$/"
+        },
+        "bytes22": {
+          "pattern": "!!/^0x[0-9a-z]{44}$/"
+        },
+        "bytes23": {
+          "pattern": "!!/^0x[0-9a-z]{46}$/"
+        },
+        "bytes24": {
+          "pattern": "!!/^0x[0-9a-z]{48}$/"
+        },
+        "bytes25": {
+          "pattern": "!!/^0x[0-9a-z]{50}$/"
+        },
+        "bytes26": {
+          "pattern": "!!/^0x[0-9a-z]{52}$/"
+        },
+        "bytes27": {
+          "pattern": "!!/^0x[0-9a-z]{54}$/"
+        },
+        "bytes28": {
+          "pattern": "!!/^0x[0-9a-z]{56}$/"
+        },
+        "bytes29": {
+          "pattern": "!!/^0x[0-9a-z]{58}$/"
+        },
+        "bytes30": {
+          "pattern": "!!/^0x[0-9a-z]{60}$/"
+        },
+        "bytes31": {
+          "pattern": "!!/^0x[0-9a-z]{62}$/"
+        },
+        "bytes32": {
+          "pattern": "!!/^0x[0-9a-z]{64}$/"
+        },
+        "bytes": {
+          "pattern": "!!/^0x([0-9a-z]{2})*$/"
+        }
+      },
+      "required": [
+        "bytes1",
+        "bytes2",
+        "bytes3",
+        "bytes4",
+        "bytes5",
+        "bytes6",
+        "bytes7",
+        "bytes8",
+        "bytes9",
+        "bytes10",
+        "bytes11",
+        "bytes12",
+        "bytes13",
+        "bytes14",
+        "bytes15",
+        "bytes16",
+        "bytes17",
+        "bytes18",
+        "bytes19",
+        "bytes20",
+        "bytes21",
+        "bytes22",
+        "bytes23",
+        "bytes24",
+        "bytes25",
+        "bytes26",
+        "bytes27",
+        "bytes28",
+        "bytes29",
+        "bytes30",
+        "bytes31",
+        "bytes32",
+        "bytes"
+      ]
+    }
+  },
+  "required": [
+    "solidityTypes"
+  ]
+}
